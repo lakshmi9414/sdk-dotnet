@@ -7,7 +7,8 @@ namespace AuthorizeNet
     public class Merchant {
 
 	    public const string CpVersion = "1.0";	// card present version
-	    public const int MaxLoginLength = 20;
+	   // public const int MaxLoginLength = 20;
+	    public const int MaxLoginLength = 19;
 	    public const int MaxTransactionKeyLength = 16;
 
         protected Environment Environment { get; set; }
